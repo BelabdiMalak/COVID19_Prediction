@@ -21,6 +21,7 @@ Here are the steps I followed :
 - Merge Covid base and Diet Base.
 - Choose the appropriate model. This problem belongs to the Supervised Learning, specificly the numerical regression. I have tested the most popular and appropriate models and compared their performance (Linear Regression, Decision Trees, Random Forsets and Artificial Neural Networks).
 
-## Remark
+## Remarks
 
 - The initial Covid base covers two different periods : before the vaccination occured and after. The vaccination criteria will obviously affect the results. I have devided the data according to these two periods. Results weren't coherent for the period before vaccination and the amount of data weren't sufficient. Therfor, I have done the resolution only for the second period.
+- The Covid base includes a considerable amount of outliers, it's not suitable to ignore these information and remove all of them. These values might represent the period where deaths and contamination numbers were epic.
