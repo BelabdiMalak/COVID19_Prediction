@@ -26,3 +26,13 @@ Here are the steps I followed :
 - The initial Covid base covers two different periods : before the vaccination occured and after. The vaccination criteria will obviously affect the results. I have devided the data according to these two periods. Results weren't coherent for the period before vaccination and the amount of data weren't sufficient. Therfor, I have done the resolution only for the second period.
 - The Covid base includes a considerable amount of outliers, it's not suitable to ignore these information and remove all of them. These values might represent the period where deaths and contamination numbers were epic. For this reason, I kept most of them and deleted the furthest points.
 - Equally, the Diet base contains a few number of outliers for every food product. I replaced them with maximal or minimal value.
+
+## Results
+
+1. Cumulative numbers prediction
+
+We compared models based on their "r2_score" value. Artificial Neural Networks and Random Forests registered the best values (0.903 and 0.901 respectively).
+
+2. Deaths prediction
+
+Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.716 and 0.739 respectively).
