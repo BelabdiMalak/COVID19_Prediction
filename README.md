@@ -31,13 +31,14 @@ Here are the steps I followed :
 
 1. Cumulative numbers prediction
 
-We compared models based on their "r2_score" value. Artificial Neural Networks and Random Forests registered the best values (0.903 and 0.901 respectively).
+We compared models based on their "r2_score" value. Artificial Neural Networks and Random Forests registered the best values (0.922 and 0.914 respectively).
 
 2. Deaths prediction
 
-Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.72 and 0.739 respectively).
+Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.727 and 0.725 respectively).
 
 ## Ideas to improve the project
 
 - Our model is tested on a clean dataset (x_test and y_test), because we have deleted the outliers before predicting the new values. To test the real performance of our model, we better keep outliers for the testing dataset.
 - To make this project more significant, we can classify data according to continents (not countries). Because continents present a big variety of food diets. We predict deaths and cumulative numbers for every continent. We can compare the direct effect of food diet on the Covid-19 contaminations.
+- Both targets were chosen according to the teacher requirements. Although, I see that we should predict the cases instead, because the cumulative numbers are just pourcentages of the registered cases.
