@@ -35,4 +35,9 @@ We compared models based on their "r2_score" value. Artificial Neural Networks a
 
 2. Deaths prediction
 
-Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.716 and 0.739 respectively).
+Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.72 and 0.739 respectively).
+
+## Ideas to improve the project
+
+- Our model is tested on a clean dataset (x_test and y_test), because we have deleted the outliers before predicting the new values. To test the real performance of our model, we better keep outliers for the testing dataset.
+- To make this project more significant, we can classify data according to continents (not countries). Because continents present a big variety of food diets. We predict deaths and cumulative numbers for every continent. We can compare the direct effect of food diet on the Covid-19 contaminations.
