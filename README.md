@@ -1,8 +1,8 @@
-# COVID19_Prediction
+# COVID19_Prediction : Master 1 Project (USTHB)
 
 ## Introduction
 
-Using Deep Learning and Machine Learning Techniques, I tried to answer the following question :  
+Using Deep Learning and Machine Learning Techniques, our teacher asked us to answer the following question :  
 "Does the food diet influence the cumulative numbers of contaminations and deaths due to COVID-19 ?"
 
 ## Data
@@ -35,10 +35,14 @@ We compared models based on their "r2_score" value. Artificial Neural Networks a
 
 2. Deaths prediction
 
-Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.727 and 0.725 respectively).
+Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.737 and 0.722 respectively).
 
 ## Ideas to improve the project
 
 - Our model is tested on a clean dataset (x_test and y_test), because we have deleted the outliers before predicting the new values. To test the real performance of our model, we better keep outliers for the testing dataset.
 - To make this project more significant, we can classify data according to continents (not countries). Because continents present a big variety of food diets. We predict deaths and cumulative numbers for every continent. We can compare the direct effect of food diet on the Covid-19 contaminations.
-- Both targets were chosen according to the teacher requirements. Although, I see that we should predict the cases instead, because the cumulative numbers are just pourcentages of the registered cases.
+- Both targets were chosen according to the teacher requirements. Although, I see that we should predict the cases instead of the cumulative numbers, because this variable is just a pourcentage of the registered cases.
+
+## Conclusion
+
+After analysing results, we notice that predicting the cumulative numbers based on the food information is possible, while predicting deaths is not always correct. I suppose that the food diet has a direct impact on getting contaminated by the Covid-19 virus. Deaths are related to the food diet too, but not with a high pourcentage.
