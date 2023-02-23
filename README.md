@@ -37,6 +37,14 @@ We compared models based on their "r2_score" value. Artificial Neural Networks a
 
 Equally to the previous prediction, ANN and Random Forests models has the best values of r2_score (0.737 and 0.722 respectively).
 
+## Choise justification
+
+We have chosen the ANN model for these reasons :
+
+- It gave the best performance (r2_score).
+- Neural Networks are good at defining the relationship between inputs and target and finding how the target would change according to the input changement.
+- Neural Network perform better in case of a considerable number of features.
+
 ## Ideas to improve the project
 
 - Our model is tested on a clean dataset (x_test and y_test), because we have deleted the outliers before predicting the new values. To test the real performance of our model, we better keep outliers for the testing dataset.
